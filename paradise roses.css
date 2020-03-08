@@ -1,0 +1,211 @@
+
+/* 
+font-family:Cairo \ comfortaa(p) \ karla
+color:red \ #21455e
+*/
+
+body{
+    margin: 0; 
+    padding: 0; 
+   
+}
+    
+       /*--    Navbar   --*/
+
+#navbar{
+    width:100%;
+    height:70px;
+    
+}
+
+#navbar p{
+    font-size:40px;
+    font-family:comfortaa;
+    color:#21455e;
+    float: left;
+    margin-top: 0;
+    padding: 10px;
+}
+
+#navbar ul{
+    /* list-style-type: none; */
+    float:left;
+    margin-left:45%;
+    width:40%;
+    margin-top: 20px;
+}
+
+#navbar ul li {
+    display: inline-block;
+    margin-left: 3%;
+    font-family:comfortaa;
+    color:#21455e;
+    font-size: 20px;    
+}
+
+#navbar ul li:hover {
+   color:red; 
+}
+  
+      /*--    Header   --*/
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(background/home.png);
+    background-size: cover;
+    position: relative ;
+}
+
+.opacity{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7; 
+}
+
+.header p{  /* CSS in CSS file */
+    color:white;
+    font-family: comfortaa;
+    position: absolute;
+    top:210px;
+    left:25%;
+    font-size: 50px;
+    border-bottom: solid darkblue;
+}
+
+  /*-- about us --*/
+.about{
+    padding: 80px 0;
+}
+.about p{
+    width:45%;
+    font-family:Cairo;
+    font-size: 23px;
+    float:left;
+    margin-left: 5%
+}
+.about p span {
+    display: block;       /* to enter line */
+    font-family: comfortaa;
+    font-size: 43px;
+    color:#21455e;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    border-bottom: solid thin red;
+    width:31%   /* to cut the line under span from empty area */
+}
+.about img{
+    width:38%;
+    height: 300px;
+    margin-left: 6%;
+    box-shadow: 10px 0 20px black;
+
+}
+    /* -- services --*/
+.services{
+    padding:80px 0;
+    background-image:url('background/paradise gift.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative ;
+    height: 400px;
+}
+.services .opacity{
+    width:100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6; 
+    position: absolute;
+    left:0;
+    top:0;
+}
+.services span{
+    color:white;
+    font-family:comfortaa;
+    position: absolute;
+    left:39%;
+    font-size:60px;
+    border-bottom:solid thin red; 
+    z-index:1;
+    /* margin-top: 50px; */
+}
+.services .opacity .item{
+    width:20%;
+    height: 300px;
+    color:white;
+    font-family: karla;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 300px;
+    margin-left:10%;
+    float:left;
+    z-index:1;
+}
+.services .opacity .item i{
+    background-color:blue;
+    padding:10px;   
+}
+    /* -- our work -- */
+.our-work{
+    padding:100px 0;
+}
+.our-work span{    /* the same as services */         
+    font-family: comfortaa;
+    font-size: 50px;
+    color:#21455e;
+    text-transform: uppercase;
+    border-bottom: solid thin red;
+    margin-left: 37%; 
+}
+.our-work img{
+    width:30%;
+    height:280px;
+    margin: 3% 0 0 3%;  /* margin ( to select the spaces from top and left ) margin: top right bottom left ; */
+}
+   /* -- contact us -- */
+.contact-us{
+    padding:100px 0 150px 0; /* to make a distance between ourwrok and contact us from top and make a distance between contact us and copyright from bottom ( padding:top right bottom left; )  */
+}
+.contact-us .item {
+    width:25%;
+    height: 100px;
+    float:left; /* to make the item behind them */
+    box-shadow: 0 0 20px black;/* box-shadow (to creat a box around item )
+    box-shadow: left(-),right(+)  top,bottom  thikness  color;*/  
+    margin-left: 6.5%; /* to make a space between item */
+    text-align: center; /* to make the item at center */
+    font-family: karla;
+    padding-top: 30px;  /* to make a distance between the item and box-shadow from top */
+    font-size: 20px;
+    border-radius: 10px; /* to make a curvature on the edges of the box*/
+    color:#21455e;
+}
+.contact-us ul {
+    list-style: none;
+    margin-top: 200px;
+    margin-left: 38%;
+    
+}
+.contact-us ul li {
+    display: inline;
+    margin-left: 4%; /* to make a space between the list item*/
+    color:red;
+}
+.contact-us ul a {
+    text-decoration: none;
+    color:red;
+}
+.contact-us ul a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+      /* Copy Right */  
+.copy-right{
+    width:100%;
+    color:white;
+    background-color: black;
+    padding: 10px 0 ;
+    text-align: center ; /* make the text at center */
+    font-family:karla;
+}
